@@ -1,0 +1,75 @@
+:root{--red:#c8202a;--ink:#111;--paper:#f4efe6;--blue:#2c5a7a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Lora,Georgia,serif}
+h1,h2,h3{font-family:'Pirata One',Georgia,serif;font-weight:400;letter-spacing:.03em}
+header{background:var(--ink);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:12px;border-bottom:4px solid var(--red);flex-wrap:wrap}
+header h1{margin:0;font-size:2rem;color:var(--red);cursor:pointer}
+header .sp{flex:1}
+button{background:var(--red);color:#fff;border:0;padding:7px 14px;font:700 .8rem Lora,serif;cursor:pointer;text-transform:uppercase;letter-spacing:.04em}
+button:hover{background:#9c1820}button.alt{background:var(--ink);border:1px solid #555}button.sm{padding:3px 8px;font-size:.68rem}
+button.lang{background:transparent;border:1px solid var(--red);color:#fff}
+main{max-width:1250px;margin:0 auto;padding:18px}
+.notice{background:#fff3cd;border:1px solid #d9b44a;padding:6px 10px;margin-bottom:12px;font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.card{background:#fff;border:2px solid var(--ink);cursor:pointer;position:relative}
+.card:hover{border-color:var(--red)}
+.card img{width:100%;height:280px;object-fit:cover;object-position:top;display:block;background:var(--paper)}
+.card .t{padding:8px 10px;border-top:4px solid var(--red)}
+.card .del{position:absolute;top:4px;right:4px}
+.tabs{display:flex;gap:4px;margin-bottom:14px;border-bottom:3px solid var(--red)}
+.tabs button{background:var(--ink)}.tabs button.on{background:var(--red)}
+.sheet{display:grid;grid-template-columns:260px 1fr 280px;gap:16px}
+@media(max-width:950px){.sheet{grid-template-columns:1fr!important}}
+.panel{background:#fff;border:2px solid var(--ink);padding:12px;margin-bottom:12px}
+.panel h3{margin:0 0 8px;font-size:1.4rem;color:var(--red);border-bottom:2px solid var(--red)}
+.panel h4{margin:10px 0 4px;font-size:.95rem;text-transform:uppercase;color:var(--red)}
+.trait{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.trait label{font:1.55rem 'Pirata One';color:var(--red);flex:1;cursor:pointer}.trait label:hover{text-decoration:underline}
+.trait input{width:58px;height:46px;text-align:center;font:700 1.4rem Lora;border:3px solid var(--ink);border-radius:8px}
+.bx{display:inline-block;width:22px;height:22px;border:2px solid var(--ink);border-radius:50%;margin:2px;cursor:pointer;background:#fff;vertical-align:middle}
+.bx.on{background:var(--ink)}.bx.sk{border-color:var(--red)}.bx.sk.on{background:var(--red)}
+.bx.sq{border-radius:3px}
+.dm{display:inline-block;width:15px;height:15px;border:2px solid var(--ink);transform:rotate(45deg);margin:4px 5px;cursor:pointer;background:#fff}.dm.on{background:var(--red)}
+input[type=text],textarea,select,input[type=number]{width:100%;font:inherit;padding:5px;border:1px solid #999;background:#fafafa}
+textarea{min-height:80px;resize:vertical}
+.row{display:flex;gap:6px;align-items:center;margin-bottom:5px}
+.portrait{border:3px solid var(--ink);margin-bottom:8px;background:var(--paper)}.portrait img{width:100%;display:block}
+.rules{font-size:.88rem;line-height:1.4}.rules p{margin:.3em 0}.rules ul{margin:.2em 0 .4em;padding-left:1.1em}
+.hot{color:var(--red);font-weight:700}.small{font-size:.8rem;color:#555}
+.mv{border-bottom:1px solid #ccc;padding:9px 0}
+.mv .h{display:flex;gap:8px;align-items:center;margin-bottom:3px}.mv .h b{font:1.3rem 'Pirata One';flex:1}
+.core{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--blue)}
+.mvh{font:1.6rem 'Pirata One';background:var(--red);color:#fff;padding:2px 10px;margin:16px 0 4px;column-span:all}
+.cols{columns:2;column-gap:24px}.cols .mv{break-inside:avoid}@media(max-width:850px){.cols{columns:1}}
+.q{margin-bottom:8px}.q .small{display:block;margin-bottom:2px}
+
+html{scroll-behavior:smooth}::selection{background:var(--red);color:#fff}
+button,.card,.card img,.bx,.dm,.mv,.trait label,.tabs button,input,select,textarea{transition:all .18s ease}
+button:hover{transform:translateY(-1px);box-shadow:0 3px 0 #000}button:active{transform:translateY(1px);box-shadow:none}
+.card{transition:transform .22s ease,box-shadow .22s ease,border-color .2s}.card:hover{transform:translateY(-5px) rotate(-.4deg);box-shadow:6px 8px 0 rgba(17,17,17,.9)}
+.card:hover img{transform:scale(1.04)}.card{overflow:hidden}.card .del{opacity:0;z-index:2}.card:hover .del{opacity:1}
+.bx:hover{transform:scale(1.18);border-color:var(--red)}.bx:active{transform:scale(.9)}.dm:hover{background:#f0b3b6}.dm.on:hover{background:#9c1820}
+.mv:hover{background:#fbf6ee}.trait label:hover{transform:translateX(3px)}
+.trait input:focus,input:focus,select:focus,textarea:focus{outline:2px solid var(--red);outline-offset:1px;background:#fff}
+.tabs{position:sticky;top:0;background:var(--paper);z-index:5;padding-top:4px}.tabs button{border-bottom:3px solid transparent}.tabs button:hover{background:#333}.tabs button.on{background:var(--red)}
+.panel{transition:box-shadow .2s}.panel:hover{box-shadow:4px 4px 0 rgba(200,32,42,.35)}
+.portrait{overflow:hidden}.portrait img{transition:transform .5s}.portrait:hover img{transform:scale(1.03)}
+@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+#app.enter{animation:enter .35s ease both}
+#dice{position:fixed;right:14px;bottom:14px;width:300px;background:var(--ink);color:#fff;border:3px solid var(--red);z-index:9;font-size:.9rem;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+#dice .h{background:var(--red);padding:4px 10px;cursor:pointer;font:1.3rem 'Pirata One';display:flex;justify-content:space-between;align-items:center;user-select:none}
+#dice .h i{width:10px;height:10px;border-right:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(45deg);transition:transform .25s;margin-bottom:4px}
+#dice.shut .h i{transform:rotate(-135deg);margin-bottom:-4px}#dice .b{padding:10px;max-height:420px;overflow:auto;transition:max-height .3s,padding .3s}
+#dice.shut .b{max-height:0;padding-top:0;padding-bottom:0;overflow:hidden}
+#dice .rlabel{text-align:center;margin-top:8px;font-size:.85rem;color:#ccc}
+.tray{display:flex;justify-content:center;gap:10px;margin:8px 0;perspective:400px}
+.die{width:46px;height:46px;background:#f4efe6;color:var(--ink);font:2rem 'Pirata One';display:flex;align-items:center;justify-content:center;border:3px solid var(--red);border-radius:8px}
+.die.rolling{animation:tumble .45s linear infinite}.die.land{animation:land .35s ease-out}.die.drop{opacity:.35;text-decoration:line-through}
+@keyframes tumble{0%{transform:rotate(0) translateY(0)}25%{transform:rotate(90deg) translateY(-8px)}50%{transform:rotate(180deg) translateY(0)}75%{transform:rotate(270deg) translateY(-8px)}100%{transform:rotate(360deg)}}
+@keyframes land{0%{transform:scale(1.5) rotate(-12deg)}60%{transform:scale(.92)}100%{transform:none}}
+#dice .big{font:3.4rem 'Pirata One';text-align:center;line-height:1;transition:opacity .2s}
+#dice .big.pop{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}@keyframes pop{from{transform:scale(.5)}to{transform:scale(1)}}
+#dice .tier{text-align:center;font-weight:700;text-transform:uppercase;font-size:.8rem;min-height:1.2em}.fadein{animation:fadein .4s both}@keyframes fadein{from{opacity:0;transform:translateY(4px)}}
+.t10{color:#6fdc8c}.t79{color:#f2c94c}.t6{color:#ff6a6a}
+.logbar{margin-top:8px}#dice .log div{border-top:1px solid #444;padding:3px 0;font-size:.78rem;color:#bbb}.slide{animation:slide .35s both}@keyframes slide{from{opacity:0;transform:translateX(18px)}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
