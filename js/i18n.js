@@ -1,6 +1,6 @@
 /* UI strings + rules merging. Rules text lives in data/rules.<lang>.js; missing pt keys fall back to English. */
 const UI={
-en:{hub:'Hub',newChar:'New character',exp:'Export',imp:'Import',empty:'No characters yet. Click “New character”.',del:'Delete',
+en:{apply:'Apply traits',unrest:'Unrest',hold:'Hold',creation:'Character Creation',oddities:'Oddities',tapOdd:'Choose one oddity and take its trait modifiers.',kitHint:'Pick a kit — items with * are heavy.',kitAdded:'Kit added to belongings',taken:'Taken',comrade:'Comrade',rival:'Rival',lover:'Lover',change:'Change',loadErr:'Could not load the rules data. Open this folder with a local server (VS Code “Live Server”) instead of double-clicking index.html.',hub:'Hub',newChar:'New character',exp:'Export',imp:'Import',empty:'No characters yet. Click “New character”.',del:'Delete',
 sheet:'Sheet',ship:'Ship',moves:'Moves',name:'Name',looks:'Looks',playbook:'Playbook',oddity:'Oddity',noOddity:'— Oddity —',
 luck:'Luck',harm:'Harm',troubles:'Troubles',bonds:'Bonds',belongings:'Belongings',experience:'Experience',advances:'Advances',
 advancesText:'(Up to 3 times) +1 to trait. Gain 1 bond with a relevant person or the ship. Take an unmarked playbook move.',
@@ -14,9 +14,9 @@ untranslated:'Part of the rules text is not translated yet and is shown in Engli
 traits:{blood:'Blood',vinegar:'Vinegar',polish:'Polish',spitfire:'Spitfire',steadfast:'Steadfast',speed:'Speed',fortune:'Fortune'},
 pb:{captain:'Captain',chirurgeon:'Chirurgeon',chronicler:'Chronicler',gunslinger:'Gunslinger',matelot:'Matelot',mountebank:'Mountebank',navigator:'Navigator',shiprat:'Shiprat',swashbuckler:'Swashbuckler'},
 sh:{jewel:'The Jewel',legend:'The Legend',ramshackle:'The Ramshackle'}},
-pt:{hub:'Início',newChar:'Novo personagem',exp:'Exportar',imp:'Importar',empty:'Nenhum personagem ainda. Clique em “Novo personagem”.',del:'Excluir',
+pt:{apply:'Aplicar atributos',unrest:'Inquietação',hold:'Reserva',creation:'Criação de Personagem',oddities:'Peculiaridades',tapOdd:'Escolha uma peculiaridade e aplique os modificadores de atributo.',kitHint:'Escolha um kit — itens com * são pesados.',kitAdded:'Kit adicionado aos pertences',taken:'Adquirido',comrade:'Camarada',rival:'Rival',lover:'Amante',change:'Alterar',loadErr:'Não foi possível carregar os dados das regras. Abra a pasta com um servidor local (extensão “Live Server” do VS Code) em vez de dar duplo clique no index.html.',hub:'Início',newChar:'Novo personagem',exp:'Exportar',imp:'Importar',empty:'Nenhum personagem ainda. Clique em “Novo personagem”.',del:'Excluir',
 sheet:'Ficha',ship:'Navio',moves:'Movimentos',name:'Nome',looks:'Aparência',playbook:'Classe',oddity:'Peculiaridade',noOddity:'— Peculiaridade —',
-luck:'Sorte',harm:'Ferimento',troubles:'Problemas',bonds:'Vínculos',belongings:'Pertences',experience:'Experiência',advances:'Avanços',
+luck:'Sorte',harm:'Dano',troubles:'Problemas',bonds:'Vínculos',belongings:'Pertences',experience:'Experiência',advances:'Avanços',
 advancesText:'(Até 3 vezes) +1 em um atributo. Ganhe 1 vínculo com uma pessoa relevante ou com o navio. Escolha um movimento da classe ainda não marcado.',
 lastWords:'Últimas Palavras',vice:'Vício',marked:'Marcado',kit:'Kit',addKit:'Adicionar aos pertences',questions:'Perguntas',notes:'Anotações',
 file:'Arquivo',link:'Link',defArt:'Arte padrão',askUrl:'URL da imagem:',roll:'Rolar',dice:'Dados',clear:'Limpar histórico',bonus:'Bônus / penalidade',normal:'Normal',low2:'2 menores de 3d6',
@@ -33,7 +33,7 @@ const t=k=>UI[lang][k]??UI.en[k]??k;
 const tn=k=>UI[lang].traits[k]||k, pbn=k=>UI[lang].pb[k]||k, shn=k=>UI[lang].sh[k]||k;
 function merge(a,b){if(b===undefined||b===null||b==='')return a;if(Array.isArray(a))return a.map((x,i)=>merge(x,b[i]));
  if(a&&typeof a==='object'){const o={};for(const k in a)o[k]=merge(a[k],b[k]);return o}return b}
-const EN=window.RULES_EN;let _R=null,_L=null;
+let EN=null,_R=null,_L=null;
 function R(){if(_L!==lang){_R=lang==='en'?EN:merge(EN,window.RULES_PT||{});_L=lang}return _R}
 const ptMissing=()=>{if(lang!=='pt')return false;const p=window.RULES_PT||{};return !(p.playbooks&&p.ships&&p.moves)};
 function toggleLang(){lang=lang==='en'?'pt':'en';localStorage.setItem('rps_lang',lang);document.documentElement.lang=lang==='pt'?'pt-BR':'en';render()}

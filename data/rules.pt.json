@@ -1,4 +1,4 @@
-window.RULES_PT={
+{
  "playbooks": {
   "captain": {
    "moves": [
@@ -32,7 +32,7 @@ window.RULES_PT={
     },
     {
      "name": "UM RECONHECE O OUTRO",
-     "text": "Quando você ler alguém, role +VINAGRE. Com sucesso, pergunte 1; com 10+, pergunte 2. Com falha, a pessoa pergunta 1 a você em vez disso. Você pode gastar um vínculo com ela para fazer as três perguntas, mesmo depois de rolar. Quais são as suas verdadeiras intenções aqui? Como posso fazer você agir como eu quero? Qual é o seu calcanhar de aquiles?"
+     "text": "Quando você ler alguém, role +VINAGRE. Com sucesso, pergunte 1; com 10+, pergunte 2. Com falha, a pessoa pergunta 1 a você em vez disso. Você pode gastar um vínculo com ela para fazer as três perguntas, mesmo depois de rolar. \n• Quais são as suas verdadeiras intenções aqui? \n• Como posso fazer você agir como eu quero? \n• Qual é o seu calcanhar de aquiles?"
     }
    ],
    "oddities": [
@@ -82,7 +82,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, você:",
    "last": [
     "Inspira sua tripulação enquanto perece. Passe pela mesa e pergunte a cada tripulante se você foi um bom capitão no fim das contas. Se o coração deles disser que sim, eles marcam toda a sorte; se disser que não, eles podem remover todos os seus problemas.",
-    "Cai em desgraça, mas permanece vivo por um fio. Perca tudo o que tinha — seu posto de capitão, sua dignidade, seu tesouro. Escolha uma nova classe. OBCECADO Você pode ser compelido pelos Fados a perseguir sua ambição a qualquer custo. Se você prejudicar um tripulante no processo, marque 1 de experiência e 1 de inquietação. Sempre que remover Obcecado, remova 1 de inquietação. Desfecho: resistir ao compelimento pelo bem da tripulação."
+    "Cai em desgraça, mas permanece vivo por um fio. Perca tudo o que tinha — seu posto de capitão, sua dignidade, seu tesouro. Escolha uma nova classe."
    ],
    "vice": {
     "name": "Obcecado",
@@ -94,11 +94,11 @@ window.RULES_PT={
    "moves": [
     {
      "name": "CIRURGIA",
-     "text": "Quando você realizar uma cirurgia em um paciente voluntário, diga aos Fados o que quer que a cirurgia faça pelo paciente e escolha 1 ingrediente ou ferramenta estranha e rara necessária para isso. Os Fados podem exigir que você use de 1 a 3 ingredientes ou ferramentas adicionais, conforme a escala da cirurgia solicitada. Quando tiver tudo o que precisa, dedique uma hora com suas ferramentas de cirurgia e role +VINAGRE. Com sucesso, funciona — escolha 1 efeito colateral da lista a seguir. Com 7-9, escolha 2. É demorada; você deve gastar um descanso para concluí-la. É bagunçada; você esgota suas ferramentas de cirurgia. É fascinante; você recebe Fascinado. Com falha, a cirurgia funciona, mas dá errado; o paciente sofre um efeito colateral terrível na forma de um problema à escolha dos Fados, com o desfecho [remova o que quer que a cirurgia tenha feito a você e sofra 1 de dano]."
+     "text": "Quando você realizar uma cirurgia em um paciente voluntário, diga aos Fados o que quer que a cirurgia faça pelo paciente e escolha 1 ingrediente ou ferramenta estranha e rara necessária para isso. Os Fados podem exigir que você use de 1 a 3 ingredientes ou ferramentas adicionais, conforme a escala da cirurgia solicitada. Quando tiver tudo o que precisa, dedique uma hora com suas ferramentas de cirurgia e role +VINAGRE. Com sucesso, funciona — escolha 1 efeito colateral da lista a seguir. Com 7-9, escolha 2. \n• É demorada; você deve gastar um descanso para concluí-la. \n• É bagunçada; você esgota suas ferramentas de cirurgia. \n• É fascinante; você recebe Fascinado. Com falha, a cirurgia funciona, mas dá errado; o paciente sofre um efeito colateral terrível na forma de um problema à escolha dos Fados, com o desfecho [remova o que quer que a cirurgia tenha feito a você e sofra 1 de dano]."
     },
     {
      "name": "ALQUIMIA",
-     "text": "No início de cada sessão, se você tiver suas ferramentas de alquimia, pode rolar +VINAGRE. Com sucesso, guarde 1. Com 10+, guarde 2. Com falha, suas ferramentas de alquimia acabaram; você terá que encontrar ou comprar mais. Gaste 1 por 1 do que guardou para ter um dos itens a seguir à mão quando precisar. Os pontos guardados expiram no final da sessão. 3 explosivos (2 de dano, área, perigoso, barulhento, fogo, funciona no impacto) 3 bombas de mau cheiro (área, +1 em Truque Inteligente, fedorento, atordoante, explode após cinco minutos) 1 frasco de veneno (lento, ingerir: 3 de dano paralisante) 1 frasco de supercola (perigoso, pode colar qualquer coisa, fraco contra água salgada) 1 cilindro de gás sonífero (sono em área, funciona no impacto) 3 bombas de fumaça (área, +1 em Truque Inteligente, cegante, funciona no impacto)"
+     "text": "No início de cada sessão, se você tiver suas ferramentas de alquimia, pode rolar +VINAGRE. Com sucesso, guarde 1. Com 10+, guarde 2. Com falha, suas ferramentas de alquimia acabaram; você terá que encontrar ou comprar mais. Gaste 1 por 1 do que guardou para ter um dos itens a seguir à mão quando precisar. Os pontos guardados expiram no final da sessão. \n• 3 explosivos (2 de dano, área, perigoso, barulhento, fogo, funciona no impacto) \n• 3 bombas de mau cheiro (área, +1 em Truque Inteligente, fedorento, atordoante, explode após cinco minutos) \n• 1 frasco de veneno (lento, ingerir: 3 de dano paralisante) \n• 1 frasco de supercola (perigoso, pode colar qualquer coisa, fraco contra água salgada) \n• 1 cilindro de gás sonífero (sono em área, funciona no impacto) \n• 3 bombas de fumaça (área, +1 em Truque Inteligente, cegante, funciona no impacto)"
     },
     {
      "name": "ESTUDO CLERICAL",
@@ -172,7 +172,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, você:",
    "last": [
     "Realiza uma cirurgia desesperada em si mesmo e recebe um problema: “Vivo por um Fio [morrer]. Você se agarra à vida.” Que marca medonha isso deixa em você?",
-    "Entrega-se com dignidade (todos os tripulantes que fizerem vigília pela sua morte curam 1 de dano) ou sem ela (descreva que terrível abominação médica você deixa para trás). FASCINADO Enquanto estiver Fascinado, os Fados podem compeli-lo a fazer ciência empolgante colocando vidas humanas em risco. Se você colocar um tripulante na tábua de corte para isso, marque 1 de experiência. Desfecho: resistir ao compelimento pelo bem da tripulação."
+    "Entrega-se com dignidade (todos os tripulantes que fizerem vigília pela sua morte curam 1 de dano) ou sem ela (descreva que terrível abominação médica você deixa para trás)."
    ],
    "vice": {
     "name": "Fascinado",
@@ -184,7 +184,7 @@ window.RULES_PT={
    "moves": [
     {
      "name": "ARTÍFICE DAS PALAVRAS",
-     "text": "Quando você decidir escrever um livro, diga aos Fados sobre o que será o livro e o que você quer que ele faça quando o ler em voz alta. Os Fados lhe darão uma missão que você deve concluir antes de terminá-lo, selecionando da lista a seguir. Eles podem adicionar até 4 missões extras para livros mais poderosos. Você deve primeiro vivenciar ______. O livro deve ser feito de _______. A tinta deve ser infundida com ______. _____ deve dar ao livro seu/sua ______. Quando você terminar seu livro durante o descanso, role +CENTELHA. Com sucesso, escolha um requisito para usar a magia do livro; os Fados preencherão as lacunas. Com 7-9, escolha um requisito adicional. Com falha, diga aos Fados por que o livro não saiu como você pretendia; os Fados dirão o que o livro faz agora. Escolha dois requisitos para ele; ele é perigoso. O livro só pode ser usado _____ . O livro não funcionará se _____ . Para lê-lo, você deve primeiro ______ . Lê-lo faz com que ______ ______ . Para usar um livro, cumpra seus requisitos, leia-o em voz alta e libere o poder do livro. Ele afeta todos que ouvem e compreendem as palavras."
+     "text": "Quando você decidir escrever um livro, diga aos Fados sobre o que será o livro e o que você quer que ele faça quando o ler em voz alta. Os Fados lhe darão uma missão que você deve concluir antes de terminá-lo, selecionando da lista a seguir. Eles podem adicionar até 4 missões extras para livros mais poderosos. \n• Você deve primeiro vivenciar ______. \n• O livro deve ser feito de _______. \n• A tinta deve ser infundida com ______. \n• _____ deve dar ao livro seu/sua ______. Quando você terminar seu livro durante o descanso, role +CENTELHA. Com sucesso, escolha um requisito para usar a magia do livro; os Fados preencherão as lacunas. Com 7-9, escolha um requisito adicional. Com falha, diga aos Fados por que o livro não saiu como você pretendia; os Fados dirão o que o livro faz agora. Escolha dois requisitos para ele; ele é perigoso. \n• O livro só pode ser usado _____ . \n• O livro não funcionará se _____ . \n• Para lê-lo, você deve primeiro ______ . \n• Lê-lo faz com que ______ ______ . Para usar um livro, cumpra seus requisitos, leia-o em voz alta e libere o poder do livro. Ele afeta todos que ouvem e compreendem as palavras."
     },
     {
      "name": "INSPIRAÇÃO",
@@ -262,7 +262,7 @@ window.RULES_PT={
    "lastIntro": "Você dirá suas últimas palavras?",
    "last": [
     "Sim, e elas são a obra da sua vida. Suas últimas palavras se tornam um djinn de sua própria criação, esculpido pelos seus pensamentos finais. Use o djinn como um novo personagem ou deixe sua obra ser interpretada pelos Fados.",
-    "Não, você sobrevive fugindo. Abrace a covardia: corra e deixe seus amigos entregues ao seu destino terrível. Deixe tudo para trás, incluindo seu navio e o mar. Crie um novo personagem se desejar permanecer na tripulação. FEBRE DOS LIVROS Você pode ser compelido pelos Fados a se refugiar em seus livros para escapar dos problemas. Quando abandonar as necessidades da tripulação ao fazer isso, marque 1 de experiência e ganhe 1 vínculo com o livro no qual se refugiou, que agora contém um djinn. Gaste 1 vínculo com esse djinn para usar os poderes do livro livremente — sem rolagem, condições ou consequências. Se desejar usar o livro de outra forma, deverá parlamentar com o djinn em vez de liberar o poder dele. Desfecho: enfrentar de frente algo que o assusta. CUSTO BASE DE EXPERIÊNCIA 1 2 3 4 5 6 7 8 9 10"
+    "Não, você sobrevive fugindo. Abrace a covardia: corra e deixe seus amigos entregues ao seu destino terrível. Deixe tudo para trás, incluindo seu navio e o mar. Crie um novo personagem se desejar permanecer na tripulação."
    ],
    "vice": {
     "name": "Febre dos Livros",
@@ -274,15 +274,15 @@ window.RULES_PT={
    "moves": [
     {
      "name": "ATO SOMBRIO",
-     "text": "Quando você cometer um ato sombrio que o ajude a consumar sua vingança, escolha um ato e role +SANGUE. Com sucesso, marque e use o ato escolhido. Com 7-9, você é compelido a fazer também o que está entre parênteses. Você não pode usar uma opção que já esteja marcada. Cada ato atualmente marcado aparece no seu corpo como uma marca preta. Quando você cometer um ato não provocado de violência fria e verdadeiramente gratuita, apague todas as suas marcas e comece de novo. Acertar seu próximo alvo bem no meio do peito causando +3 de dano impactante perfurante. (Depois atire em alguém que você não deveria.) Fazer alguém insignificante fazer o que você quiser, o que quer que seja, ameaçando usar violência. (Depois pratique a violência mesmo assim.) Escapar da sua situação perigosa atual, mesmo que pareça impossível. (Colocando em perigo alguém que não merecia.) Com falha, você sucumbe aos seus impulsos mais sombrios; você realiza apenas o resultado entre parênteses. A qualquer momento, mesmo depois de rolar, você pode escolher destruir tudo em seu caminho, não importa se amigo ou inimigo — mas então será compelido a perder a razão e aposentar este personagem para os Fados controlarem."
+     "text": "Quando você cometer um ato sombrio que o ajude a consumar sua vingança, escolha um ato e role +SANGUE. Com sucesso, marque e use o ato escolhido. Com 7-9, você é compelido a fazer também o que está entre parênteses. Você não pode usar uma opção que já esteja marcada. Cada ato atualmente marcado aparece no seu corpo como uma marca preta. Quando você cometer um ato não provocado de violência fria e verdadeiramente gratuita, apague todas as suas marcas e comece de novo. \n• Acertar seu próximo alvo bem no meio do peito causando +3 de dano impactante perfurante. (Depois atire em alguém que você não deveria.) \n• Fazer alguém insignificante fazer o que você quiser, o que quer que seja, ameaçando usar violência. (Depois pratique a violência mesmo assim.) \n• Escapar da sua situação perigosa atual, mesmo que pareça impossível. (Colocando em perigo alguém que não merecia.) Com falha, você sucumbe aos seus impulsos mais sombrios; você realiza apenas o resultado entre parênteses. A qualquer momento, mesmo depois de rolar, você pode escolher destruir tudo em seu caminho, não importa se amigo ou inimigo — mas então será compelido a perder a razão e aposentar este personagem para os Fados controlarem."
     },
     {
      "name": "TIRO MIRADO",
-     "text": "Quando você entrar em briga, pode se lançar em uma posição precária para dar um tiro mirado. Se obtiver sucesso, escolha uma tag entre as opções a seguir; seu alvo recebe essa tag além de qualquer dano que você causar. Cego. Ele não consegue enxergar nada. Manco. Ele não consegue andar mais rápido que um mancar lento. Mutilado. Ele larga o que está segurando e não consegue usar aquele braço. Abalado. Ele fica descuidado. Você recebe +1 em movimentos contra ele."
+     "text": "Quando você entrar em briga, pode se lançar em uma posição precária para dar um tiro mirado. Se obtiver sucesso, escolha uma tag entre as opções a seguir; seu alvo recebe essa tag além de qualquer dano que você causar. \n• Cego. Ele não consegue enxergar nada. \n• Manco. Ele não consegue andar mais rápido que um mancar lento. \n• Mutilado. Ele larga o que está segurando e não consegue usar aquele braço. \n• Abalado. Ele fica descuidado. Você recebe +1 em movimentos contra ele."
     },
     {
      "name": "ATOS SUJOS",
-     "text": "Adicione estes à sua lista de atos sombrios: Declarar alguém como seu alvo. Você sempre consegue sentir onde a pessoa está e recebe +1 em violência contra ela. (Receba -1 em qualquer outra coisa.) Quando você acabar de tirar uma vida, remova todo o seu dano. (Depois mutile o cadáver.)"
+     "text": "Adicione estes à sua lista de atos sombrios: \n• Declarar alguém como seu alvo. Você sempre consegue sentir onde a pessoa está e recebe +1 em violência contra ela. (Receba -1 em qualquer outra coisa.) \n• Quando você acabar de tirar uma vida, remova todo o seu dano. (Depois mutile o cadáver.)"
     },
     {
      "name": "ESTRADA PARA O INFERNO",
@@ -352,7 +352,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, você ainda busca vingança?",
    "last": [
     "Sim, você ainda tem gente que precisa morrer. Retorne da morte como um revenã. Você não come, bebe ou dorme mais; recebe -1 ao manter-se firme até receber uma morte digna (ou mudar de classe). Escolha uma parte do corpo e uma memória que você perdeu.",
-    "Não, você está farto de espalhar a morte. Role 1d6. Se o resultado for maior que a quantidade de atos marcados que você tem atualmente, você se redimiu; morra em paz. Caso contrário, você deve retornar. VÍCIO Quando você disser suas últimas palavras, você ainda busca vingança? SEDENTO DE SANGUE Você é compelido a ver qualquer pessoa entre você e seu objetivo como meros obstáculos, facilmente abatidos. Quando você matar alguém inocente em nome da vingança, marque 1 de experiência. Desfecho: escolher não se vingar."
+    "Não, você está farto de espalhar a morte. Role 1d6. Se o resultado for maior que a quantidade de atos marcados que você tem atualmente, você se redimiu; morra em paz. Caso contrário, você deve retornar. VÍCIO Quando você disser suas últimas palavras, você ainda busca vingança?"
    ],
    "vice": {
     "name": "Sedento de Sangue",
@@ -364,11 +364,11 @@ window.RULES_PT={
    "moves": [
     {
      "name": "BRIGA DE RUA",
-     "text": "Seus punhos causam 2 de dano corpo a corpo. Quando você arrebentar um obstáculo para passar, receba um problema de Marujo se puder e role +SANGUE. Com sucesso, você destrói o obstáculo. Com 10+, escolha um; com 7-9, ambos acontecem. Você atrai atenção indesejada. Você sofre 1 de dano no processo. Com falha, você destrói algo que não devia. Os Fados dirão como você criou novos obstáculos para si mesmo."
+     "text": "Seus punhos causam 2 de dano corpo a corpo. Quando você arrebentar um obstáculo para passar, receba um problema de Marujo se puder e role +SANGUE. Com sucesso, você destrói o obstáculo. Com 10+, escolha um; com 7-9, ambos acontecem. \n• Você atrai atenção indesejada. \n• Você sofre 1 de dano no processo. Com falha, você destrói algo que não devia. Os Fados dirão como você criou novos obstáculos para si mesmo."
     },
     {
      "name": "CORAÇÃO DE OURO",
-     "text": "Na criação de personagem, marque duas das opções. Faça o que ela diz e gaste 1 vínculo com o seu tripulante para realizar esses efeitos. Emprestar a ele toda a sua força e somar 2 à rolagem dele (você pode fazer isso antes ou depois da rolagem). Pular na frente dele e sofrer a consequência que os Fados lhe infligiram (dano, problema etc.). Oferecer uma mão ou palavra firme e dar a ele um 10+ ao manter-se firme. Olhar nos olhos dele e saber exatamente o que ele está tramando."
+     "text": "Na criação de personagem, marque duas das opções. Faça o que ela diz e gaste 1 vínculo com o seu tripulante para realizar esses efeitos. \n• Emprestar a ele toda a sua força e somar 2 à rolagem dele (você pode fazer isso antes ou depois da rolagem). \n• Pular na frente dele e sofrer a consequência que os Fados lhe infligiram (dano, problema etc.). \n• Oferecer uma mão ou palavra firme e dar a ele um 10+ ao manter-se firme. \n• Olhar nos olhos dele e saber exatamente o que ele está tramando."
     },
     {
      "name": "REI DO CAMBALACHO",
@@ -384,7 +384,7 @@ window.RULES_PT={
     },
     {
      "name": "SANGUE DE TEMPESTADE",
-     "text": "Quando você tiver o problema Enraivecido e ceder ao compelimento dele, escolha dois efeitos que acontecem imediatamente: Você marca toda a sorte. Suas armas e punhos causam 1 de avaria até você tomar fôlego. Você invoca uma grande tempestade de raios ao seu redor; descreva como ela o ajuda."
+     "text": "Quando você tiver o problema Enraivecido e ceder ao compelimento dele, escolha dois efeitos que acontecem imediatamente: \n• Você marca toda a sorte. \n• Suas armas e punhos causam 1 de avaria até você tomar fôlego. \n• Você invoca uma grande tempestade de raios ao seu redor; descreva como ela o ajuda."
     },
     {
      "name": "AMIGO DAS SEREIAS",
@@ -476,7 +476,7 @@ window.RULES_PT={
    "moves": [
     {
      "name": "CANALIZAR",
-     "text": "Na criação de personagem, marque 2 poderes sombrios. Para cada 1 vínculo que tiver com o seu demônio, marque um poder adicional. Quando perder um vínculo com o seu demônio, perca um poder. Quando você canalizar um poder sombrio, gaste 1 de sorte e role +CENTELHA. Com sucesso, libere 1 poder sombrio que você marcou. Com 7-9, sofra 1 de dano também. Com falha, sofra 3 de dano para canalizar o poder, ou então o demônio poderá fazer o que quiser por alguns segundos. Os poderes duram uma cena. Transformar-se em qualquer coisa que você já tenha visto que seja aproximadamente do seu tamanho ou menor. Criar bolas de fogo e infernos ao seu redor (perigoso fogo área barulhento 2 de dano). Animar um cadáver (vinculado lento 2 de dano corpo a corpo) a partir de uma sombra próxima. Forçar alguém no seu campo de visão, cujo nome você conheça, a seguir sua próxima ordem (ela não pode feri-lo). Envolver-se em sombras para receber 2 de armadura estranha resistente. Ver os desejos profundos e segredos sombrios de todos ao seu redor. Entrar nos sonhos de uma pessoa cujo nome você conheça e dar-lhe visões."
+     "text": "Na criação de personagem, marque 2 poderes sombrios. Para cada 1 vínculo que tiver com o seu demônio, marque um poder adicional. Quando perder um vínculo com o seu demônio, perca um poder. Quando você canalizar um poder sombrio, gaste 1 de sorte e role +CENTELHA. Com sucesso, libere 1 poder sombrio que você marcou. Com 7-9, sofra 1 de dano também. Com falha, sofra 3 de dano para canalizar o poder, ou então o demônio poderá fazer o que quiser por alguns segundos. Os poderes duram uma cena. \n• Transformar-se em qualquer coisa que você já tenha visto que seja aproximadamente do seu tamanho ou menor. \n• Criar bolas de fogo e infernos ao seu redor (perigoso fogo área barulhento 2 de dano). \n• Animar um cadáver (vinculado lento 2 de dano corpo a corpo) a partir de uma sombra próxima. \n• Forçar alguém no seu campo de visão, cujo nome você conheça, a seguir sua próxima ordem (ela não pode feri-lo). \n• Envolver-se em sombras para receber 2 de armadura estranha resistente. \n• Ver os desejos profundos e segredos sombrios de todos ao seu redor. \n• Entrar nos sonhos de uma pessoa cujo nome você conheça e dar-lhe visões."
     },
     {
      "name": "BARGANHAR",
@@ -553,7 +553,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, escolha um:",
    "last": [
     "Exploda em um inferno ardente enquanto seu corpo se torna um receptáculo para o seu demônio. Diga aos Fados o que o demônio faz em seguida; depois que ele concluir essa tarefa final, estará nas mãos do destino.",
-    "Faça uma barganha desesperada com o seu demônio pela sua vida. Ele pedirá algo terrível em troca. ATORMENTADO Enquanto estiver Atormentado, você é compelido a fazer o que o seu demônio manda; se ele pedir para você fazer algo cruel com um tripulante, faça-o voluntariamente para marcar 1 de experiência. Se resistir ao compelimento, escolha algo da lista de sacrifícios ou perca 1 vínculo com o demônio. Desfecho: resistir ao compelimento pelo bem de um tripulante."
+    "Faça uma barganha desesperada com o seu demônio pela sua vida. Ele pedirá algo terrível em troca."
    ],
    "vice": {
     "name": "Atormentado",
@@ -577,11 +577,11 @@ window.RULES_PT={
     },
     {
      "name": "BÊNÇÃO DO CONTRAMESTRE",
-     "text": "Quando você torcer o destino enquanto estiver no leme do seu navio, pode gastar vínculos com o seu navio, 1 por 1, em vez de sorte. Se fizer isso, poderá escolher entre os seguintes efeitos adicionais: Você avista algo escondido logo abaixo das ondas; o que é e como poderia ajudá-lo? Você nota uma maneira de se abrigar e despistar perseguidores; qual é e como poderia tirar proveito? O clima se volta contra os seus inimigos; o que acontece e como isso os atrapalha? A qualquer momento, você pode marcar Caçado para agir como se tivesse gasto 2 de sorte ao torcer o seu destino, e escolher uma das opções acima."
+     "text": "Quando você torcer o destino enquanto estiver no leme do seu navio, pode gastar vínculos com o seu navio, 1 por 1, em vez de sorte. Se fizer isso, poderá escolher entre os seguintes efeitos adicionais: \n• Você avista algo escondido logo abaixo das ondas; o que é e como poderia ajudá-lo? \n• Você nota uma maneira de se abrigar e despistar perseguidores; qual é e como poderia tirar proveito? \n• O clima se volta contra os seus inimigos; o que acontece e como isso os atrapalha? A qualquer momento, você pode marcar Caçado para agir como se tivesse gasto 2 de sorte ao torcer o seu destino, e escolher uma das opções acima."
     },
     {
      "name": "LER AS ESTRELAS",
-     "text": "Quando você ler as estrelas em uma noite limpa na proa do seu navio, gaste 1 de sorte e role +CENTELHA. Com sucesso, as estrelas lhe revelam 1 opção, e os Fados respondem à pergunta associada. Com 10+, descubra 2, ou descubra 1 e responda você mesmo à pergunta associada. Com falha, você deve marcar Caçado para descobrir 1. Um caminho para entrar em algo, sair de algo ou voltar para casa. Para onde? Um segredo que apenas as estrelas ouviram antes. Qual segredo? O destino de alguém ou algo: para onde aponta a bússola do coração. O destino de quem?"
+     "text": "Quando você ler as estrelas em uma noite limpa na proa do seu navio, gaste 1 de sorte e role +CENTELHA. Com sucesso, as estrelas lhe revelam 1 opção, e os Fados respondem à pergunta associada. Com 10+, descubra 2, ou descubra 1 e responda você mesmo à pergunta associada. Com falha, você deve marcar Caçado para descobrir 1. \n• Um caminho para entrar em algo, sair de algo ou voltar para casa. Para onde? \n• Um segredo que apenas as estrelas ouviram antes. Qual segredo? \n• O destino de alguém ou algo: para onde aponta a bússola do coração. O destino de quem?"
     },
     {
      "name": "BÊNÇÃO ESTELAR",
@@ -643,7 +643,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, escolha um:",
    "last": [
     "O Mar salva você. Ele o envolve em seu abraço, protege-o de todos os males e então o leva embora para sempre. Quais são suas últimas palavras para seus tripulantes enquanto é levado? Crie um novo personagem a menos ou até que seu Navegador seja salvo das profundezas.",
-    "Você morre, e o Mar lamenta. Descreva a coisa terrível e assombrosa que o oceano e seus servos fazem ao seu corpo e aos seus inimigos. CAÇADO Se você quebrar a regra ditada pela maldição do mar, marque toda a sorte, mas você fica Caçado; o mar agora está procurando por você. Enquanto estiver Caçado, você pode ser compelido pelos Fados a ceder ao chamado do mar e caminhar rumo às ondas; uma vez lá, os servos do mar emergirão e tentarão reivindicá-lo. Se você ceder voluntariamente e ficar marcado por isso, marque 1 de experiência. Desfecho: encontrar os servos do mar."
+    "Você morre, e o Mar lamenta. Descreva a coisa terrível e assombrosa que o oceano e seus servos fazem ao seu corpo e aos seus inimigos."
    ],
    "vice": {
     "name": "Caçado",
@@ -655,7 +655,7 @@ window.RULES_PT={
    "moves": [
     {
      "name": "PESTE",
-     "text": "Você tem um nêmesis e um protetor. Sempre que o seu nêmesis o impedir de causar problemas para a tripulação, ele marca 1 de sorte. Sempre que o seu protetor tirá-lo de uma encrenca com sucesso, ele renova todos os vínculos com você. No início de cada capítulo, pergunte aos seus tripulantes: qual de vocês está mais irritado comigo agora? Qual de vocês tem mais chance de arriscar o pescoço por mim? O primeiro se torna seu novo nêmesis; o segundo se torna seu novo protetor. Na criação de personagem, marque dois dos efeitos a seguir. Você pode gastar 1 vínculo com o seu nêmesis ou protetor, ou receber Ganancioso, para usar quaisquer efeitos marcados neles. Aproximar-se furtivamente deles, passar despercebido por eles ou escutar as conversas deles. Saber exatamente que segredo ou fraqueza eles estão escondendo. Provocá-los e compeli-los a fazer algo estúpido em resposta. Afanar algo deles sem que percebam."
+     "text": "Você tem um nêmesis e um protetor. Sempre que o seu nêmesis o impedir de causar problemas para a tripulação, ele marca 1 de sorte. Sempre que o seu protetor tirá-lo de uma encrenca com sucesso, ele renova todos os vínculos com você. No início de cada capítulo, pergunte aos seus tripulantes: qual de vocês está mais irritado comigo agora? Qual de vocês tem mais chance de arriscar o pescoço por mim? O primeiro se torna seu novo nêmesis; o segundo se torna seu novo protetor. Na criação de personagem, marque dois dos efeitos a seguir. Você pode gastar 1 vínculo com o seu nêmesis ou protetor, ou receber Ganancioso, para usar quaisquer efeitos marcados neles. \n• Aproximar-se furtivamente deles, passar despercebido por eles ou escutar as conversas deles. \n• Saber exatamente que segredo ou fraqueza eles estão escondendo. \n• Provocá-los e compeli-los a fazer algo estúpido em resposta. \n• Afanar algo deles sem que percebam."
     },
     {
      "name": "CATECÚMENO CAUTELOSO",
@@ -736,7 +736,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, você:",
    "last": [
     "Pede ao seu nêmesis para salvá-lo. Se ele concordar, você fica em dívida com ele. Se não concordar, então...",
-    "Segue sozinho. Você some no mundo. Em segredo, diga aos Fados se o seu personagem morre agora ou se retorna como um NPC vilão com um rancor terrível contra a tripulação. GANANCIOSO Enquanto estiver Ganancioso, os Fados podem compeli-lo a roubar algo que não deveria. Se você fizer isso voluntariamente e meter a tripulação em encrenca, marque 1 de experiência. Desfecho: resistir pelo bem da tripulação."
+    "Segue sozinho. Você some no mundo. Em segredo, diga aos Fados se o seu personagem morre agora ou se retorna como um NPC vilão com um rancor terrível contra a tripulação."
    ],
    "vice": {
     "name": "Ganancioso",
@@ -748,15 +748,15 @@ window.RULES_PT={
    "moves": [
     {
      "name": "CONEXÕES",
-     "text": "Sempre que você ganhar um vínculo com alguém, pode escolher torná-lo uma das suas conexões; decida se essa pessoa agora é um camarada, um rival ou um amante, e anote isso ao lado do nome dela. Você pode gastar 1 vínculo com um... camarada para agir como se tivesse rolado 10+ ao manter-se firme. rival para subjugá-lo em um único movimento, deixando-o à sua mercê. amante para compeli-lo a lhe fazer um favor especial e secreto. Sempre que gastar um vínculo com uma conexão dessa forma, marque Apaixonado. Você não pode usar vínculos dessa forma enquanto estiver Apaixonado."
+     "text": "Sempre que você ganhar um vínculo com alguém, pode escolher torná-lo uma das suas conexões; decida se essa pessoa agora é um camarada, um rival ou um amante, e anote isso ao lado do nome dela. Você pode gastar 1 vínculo com um... \n• camarada para agir como se tivesse rolado 10+ ao manter-se firme. \n• rival para subjugá-lo em um único movimento, deixando-o à sua mercê. \n• amante para compeli-lo a lhe fazer um favor especial e secreto. Sempre que gastar um vínculo com uma conexão dessa forma, marque Apaixonado. Você não pode usar vínculos dessa forma enquanto estiver Apaixonado."
     },
     {
      "name": "TEATRALIDADE",
-     "text": "Quando você entrar em uma luta, role +VINAGRE. Com sucesso, guarde 1. Com 10+, guarde 2 em vez disso. Enquanto a cena durar, gaste o que guardou para marcar uma das seguintes façanhas teatrais e usar seu efeito. Você não pode usar uma opção que já esteja marcada. Quando todas as façanhas teatrais tiverem sido marcadas, apague todas as marcas e comece de novo. Balançar-se em algo e aterrissar exatamente onde precisa estar. Prender um inimigo na parede arremessando algo. Desafiar alguém para um duelo que não pode ser recusado. Desarmar um capanga com um único movimento de pulso. Revelar que você tem mais uma arma na manga. Com falha, sua entrada dramática é embaraçosa. Se uma das suas conexões estiver assistindo, receba Apaixonado."
+     "text": "Quando você entrar em uma luta, role +VINAGRE. Com sucesso, guarde 1. Com 10+, guarde 2 em vez disso. Enquanto a cena durar, gaste o que guardou para marcar uma das seguintes façanhas teatrais e usar seu efeito. Você não pode usar uma opção que já esteja marcada. Quando todas as façanhas teatrais tiverem sido marcadas, apague todas as marcas e comece de novo. \n• Balançar-se em algo e aterrissar exatamente onde precisa estar. \n• Prender um inimigo na parede arremessando algo. \n• Desafiar alguém para um duelo que não pode ser recusado. \n• Desarmar um capanga com um único movimento de pulso. \n• Revelar que você tem mais uma arma na manga. Com falha, sua entrada dramática é embaraçosa. Se uma das suas conexões estiver assistindo, receba Apaixonado."
     },
     {
      "name": "GRANDE HERÓI",
-     "text": "Quando você realizar uma façanha insanamente arriscada para salvar sua tripulação de um perigo, role +SANGUE. Com sucesso, você consegue; descreva como fez isso e escolha um. Com 7-9, ambos acontecem. Você enfrenta uma consequência terrível e duradoura pela sua imprudência. Uma conexão se fere gravemente no processo; receba Apaixonado. Com falha, você falha, ou tem sucesso sacrificando-se, à sua escolha; os Fados dirão o que acontece com você... e o que, se houver algo, vem a seguir."
+     "text": "Quando você realizar uma façanha insanamente arriscada para salvar sua tripulação de um perigo, role +SANGUE. Com sucesso, você consegue; descreva como fez isso e escolha um. Com 7-9, ambos acontecem. \n• Você enfrenta uma consequência terrível e duradoura pela sua imprudência. \n• Uma conexão se fere gravemente no processo; receba Apaixonado. Com falha, você falha, ou tem sucesso sacrificando-se, à sua escolha; os Fados dirão o que acontece com você... e o que, se houver algo, vem a seguir."
     },
     {
      "name": "SALVADOR GALANTE",
@@ -764,7 +764,7 @@ window.RULES_PT={
     },
     {
      "name": "CHAMADA AO PALCO",
-     "text": "Adicione as seguintes façanhas teatrais à sua lista: Saltar em cena e colocar-se entre uma conexão e o perigo. Compelir todos a prestarem atenção apenas em você. Impressionar ou desconcertar alguém; receba a aposta com essa pessoa."
+     "text": "Adicione as seguintes façanhas teatrais à sua lista: \n• Saltar em cena e colocar-se entre uma conexão e o perigo. \n• Compelir todos a prestarem atenção apenas em você. \n• Impressionar ou desconcertar alguém; receba a aposta com essa pessoa."
     },
     {
      "name": "TAMBÉM NÃO SOU CANHOTO",
@@ -825,7 +825,7 @@ window.RULES_PT={
    "lastIntro": "Quando você disser suas últimas palavras, você pode:",
    "last": [
     "Levantar-se de novo e lutar até que seu inimigo atual seja derrotado. Quando ele for vencido, caia de joelhos, revele o ferimento mortal que esteve escondendo e tenha uma cena de morte dramática.",
-    "Sobreviver por um fio, mas com um ferimento terrível que deixa seu rosto marcado ou seu corpo enfraquecido. Escolha uma nova classe. APAIXONADO Enquanto estiver Apaixonado, os Fados podem compeli-lo a fazer coisas extremamente tolas para impressionar suas conexões. Se isso meter outra das suas conexões em apuros, marque 1 de experiência; essa conexão pode escolher rejeitá-lo por isso. Se ela o fizer, perca 1 vínculo com ela e ganhe 1 vínculo com outra. Desfecho: partir um coração."
+    "Sobreviver por um fio, mas com um ferimento terrível que deixa seu rosto marcado ou seu corpo enfraquecido. Escolha uma nova classe."
    ],
    "vice": {
     "name": "Apaixonado",
@@ -1071,7 +1071,7 @@ window.RULES_PT={
    "special": {
     "title": "Usar Engenhoca",
     "blocks": [
-     "Quando a tripulação do seu navio usar as engenhocas do navio, sofra 1 de avaria ou gaste 1 unidade de óleo, à sua escolha. Qualquer número de tripulantes pode gastar vínculo com o navio; role +VÍNCULOS gastos. Com sucesso, use o poder da engenhoca: Motor a Vapor — guarde 3. Gaste o que guardou a qualquer momento para ganhar uma grande explosão de velocidade ou ignorar ventos e ondas turbulentos. Pirotecnia — incendeie a oposição causando 2 de avaria fogo perigoso barulhento impactante, a longo alcance. Submersível — afunde sob as ondas por uma cena; escolha se vocês ficam completamente invisíveis da superfície ou capazes de ver o que acontece acima de vocês. Com 7-9, marque 1 no seu marcador de perseguição. Com falha, escolha se a sua engenhoca falha de forma dramática ou se ela funciona, mas você preenche imediatamente o marcador de perseguição. Quando o marcador de perseguição se completa, seu inimigo poderoso aparece em peso assim que a narrativa permitir, da maneira descrita pela sua peculiaridade; apague todas as marcas do marcador e comece de novo."
+     "Quando a tripulação do seu navio usar as engenhocas do navio, sofra 1 de avaria ou gaste 1 unidade de óleo, à sua escolha. Qualquer número de tripulantes pode gastar vínculo com o navio; role +VÍNCULOS gastos. Com sucesso, use o poder da engenhoca: \n• Motor a Vapor — guarde 3. Gaste o que guardou a qualquer momento para ganhar uma grande explosão de velocidade ou ignorar ventos e ondas turbulentos. \n• Pirotecnia — incendeie a oposição causando 2 de avaria fogo perigoso barulhento impactante, a longo alcance. \n• Submersível — afunde sob as ondas por uma cena; escolha se vocês ficam completamente invisíveis da superfície ou capazes de ver o que acontece acima de vocês. Com 7-9, marque 1 no seu marcador de perseguição. Com falha, escolha se a sua engenhoca falha de forma dramática ou se ela funciona, mas você preenche imediatamente o marcador de perseguição. Quando o marcador de perseguição se completa, seu inimigo poderoso aparece em peso assim que a narrativa permitir, da maneira descrita pela sua peculiaridade; apague todas as marcas do marcador e comece de novo."
     ]
    },
    "specials": [
@@ -1385,5 +1385,131 @@ window.RULES_PT={
     "O nome do seu navio é (escolha 1): o going merry • a barca de caronte • o ganso • outra coisa. Escreva-o em “Nome”."
    ]
   }
+ },
+ "widgets": {
+  "lair": {
+   "title": "Características do covil",
+   "hint": "Sublinhe duas.",
+   "items": [
+    "um grupo de capangas leais de tamanho 1",
+    "suprimento de um recurso raro",
+    "uma fachada de negócios (receba +1 de tesouro quando passar um descanso aqui)",
+    "um lócus",
+    "ferramentas e uma oficina",
+    "uma entrada secreta",
+    "muito rum e entretenimento",
+    "um médico de bordo habilidoso"
+   ]
+  },
+  "surg": {
+   "title": "Ferramentas de cirurgia",
+   "hint": "Escolha duas.",
+   "items": [
+    "ervas e cataplasmas",
+    "uma variedade estonteante de bisturis",
+    "produtos químicos em frascos com rótulos enigmáticos",
+    "ataduras, linha e agulhas de osso",
+    "bolsas de sangue e seringas"
+   ]
+  },
+  "alch": {
+   "title": "Ferramentas de alquimia",
+   "hint": "Escolha uma.",
+   "items": [
+    "coleções de órgãos em potes",
+    "uma caixa de ferramentas cheia de fios desencapados e grampos elétricos",
+    "uma sacola recheada de frascos",
+    "uma coleção mística de artefatos"
+   ]
+  },
+  "books": {
+   "title": "Livros",
+   "add": "Adicionar livro",
+   "name": "Título",
+   "effect": "O que o livro faz",
+   "quests": "Missões",
+   "reqs": "Requisitos",
+   "done": "Concluído",
+   "del": "Remover",
+   "questLabels": [
+    "Você deve primeiro vivenciar ______",
+    "O livro deve ser feito de ______",
+    "A tinta deve ser infundida com ______",
+    "______ deve dar ao livro seu(sua) ______"
+   ],
+   "reqLabels": [
+    "O livro só pode ser usado ______",
+    "O livro não funciona se ______",
+    "Para lê-lo, você deve primeiro ______",
+    "Lê-lo faz com que ______ ______"
+   ]
+  },
+  "deeds": {
+   "title": "Atos sombrios",
+   "hint": "Cada ato marcado aparece como uma marca preta no seu corpo.",
+   "items": [
+    "Acerte seu próximo alvo em cheio no peito com +3 de dano, forte e perfurante. (Depois atire em alguém em quem não devia.)",
+    "Faça alguém pequeno fazer o que você quiser, qualquer coisa, ameaçando-o de violência. (Depois cometa a violência mesmo assim.)",
+    "Escape da sua situação perigosa atual, mesmo que pareça impossível. (Colocando em perigo alguém que não merecia.)"
+   ],
+   "extra": [
+    "Declare alguém como seu alvo. Você sempre sabe onde essa pessoa está e recebe +1 em violência contra ela. (Receba -1 em qualquer outra coisa.)",
+    "Quando acabar de tirar uma vida, remova todo o seu dano. (Depois mutile o cadáver.)"
+   ],
+   "marks": "Marcas pretas"
+  },
+  "heart": {
+   "title": "Coração de Ouro",
+   "hint": "Marque duas na criação (as outras duas com Dever Sagrado).",
+   "items": [
+    "Empreste a ele toda a sua força e some 2 à rolagem dele (você pode fazer isso antes ou depois da rolagem).",
+    "Jogue-se na frente dele e sofra a consequência que os Fados lhe impuseram (dano, problema etc.)",
+    "Ofereça a ele uma mão firme ou uma palavra de apoio, e dê a ele um 10+ ao manter-se firme.",
+    "Olhe nos olhos dele e saiba exatamente o que ele está tramando."
+   ]
+  },
+  "channel": {
+   "title": "Poderes sombrios",
+   "hint": "Marque 2 na criação, mais 1 para cada vínculo com o seu demônio.",
+   "items": [
+    "Transformar-se em qualquer coisa que já tenha visto, de tamanho próximo ao seu ou menor.",
+    "Criar bolas de fogo e infernos ao seu redor (perigoso, fogo, área, barulhento, 2 de dano).",
+    "Animar um cadáver (ligado, lento, 2 de dano, corpo a corpo) a partir de uma sombra próxima.",
+    "Forçar alguém à sua vista, cujo nome você saiba, a obedecer à sua próxima ordem (ela não pode feri-lo).",
+    "Envolver-se em sombras para obter 2 de armadura estranha e resistente.",
+    "Ver os desejos profundos e os segredos sombrios de todos ao seu redor.",
+    "Entrar nos sonhos de uma pessoa cujo nome você saiba e dar a ela visões."
+   ]
+  },
+  "scamp": {
+   "title": "Efeitos de Peste",
+   "hint": "Marque dois na criação.",
+   "items": [
+    "Aproximar-se furtivamente deles, passar furtivamente por eles ou bisbilhotá-los.",
+    "Saber exatamente que segredo ou fraqueza eles escondem.",
+    "Provocá-los e compeli-los a fazer algo estúpido em resposta.",
+    "Furtar algo deles sem que percebam."
+   ],
+   "fields": [
+    "Nêmesis",
+    "Protetor"
+   ]
+  },
+  "theatrics": {
+   "title": "Teatralidade",
+   "hint": "Quando todas estiverem marcadas, apague as marcas e recomece.",
+   "items": [
+    "Balançar-se em algo e cair exatamente onde precisa estar.",
+    "Prender um inimigo à parede arremessando algo.",
+    "Desafiar alguém para um duelo que ele não pode recusar.",
+    "Desarmar um capanga com um simples gesto da mão.",
+    "Revelar que você tem mais uma arma na manga."
+   ],
+   "extra": [
+    "Entrar em cena e se colocar entre uma conexão e o perigo.",
+    "Obrigar todos a prestar atenção somente em você.",
+    "Impressionar ou deixar alguém sem jeito; fique com a aposta contra essa pessoa."
+   ]
+  }
  }
-};
+}

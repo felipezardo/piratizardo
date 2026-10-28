@@ -1,4 +1,4 @@
-:root{--red:#c8202a;--ink:#111;--paper:#f4efe6;--blue:#2c5a7a}
+:root{--red:#cf2027;--ink:#111;--paper:#ffffff;--blue:#2c5a7a}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Lora,Georgia,serif}
 h1,h2,h3{font-family:'Pirata One',Georgia,serif;font-weight:400;letter-spacing:.03em}
@@ -56,6 +56,8 @@ button:hover{transform:translateY(-1px);box-shadow:0 3px 0 #000}button:active{tr
 .portrait{overflow:hidden}.portrait img{transition:transform .5s}.portrait:hover img{transform:scale(1.03)}
 @keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 #app.enter{animation:enter .35s ease both}
+
+/* ===== dice panel ===== */
 #dice{position:fixed;right:14px;bottom:14px;width:300px;background:var(--ink);color:#fff;border:3px solid var(--red);z-index:9;font-size:.9rem;box-shadow:0 6px 20px rgba(0,0,0,.4)}
 #dice .h{background:var(--red);padding:4px 10px;cursor:pointer;font:1.3rem 'Pirata One';display:flex;justify-content:space-between;align-items:center;user-select:none}
 #dice .h i{width:10px;height:10px;border-right:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(45deg);transition:transform .25s;margin-bottom:4px}
@@ -73,3 +75,56 @@ button:hover{transform:translateY(-1px);box-shadow:0 3px 0 #000}button:active{tr
 .t10{color:#6fdc8c}.t79{color:#f2c94c}.t6{color:#ff6a6a}
 .logbar{margin-top:8px}#dice .log div{border-top:1px solid #444;padding:3px 0;font-size:.78rem;color:#bbb}.slide{animation:slide .35s both}@keyframes slide{from{opacity:0;transform:translateX(18px)}}
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* ===== language switch ===== */
+.sw{display:inline-flex;align-items:center;gap:8px;cursor:pointer;font:800 .75rem Montserrat,sans-serif;color:#fff;user-select:none}
+.sw input{display:none}.sw i{width:44px;height:22px;border-radius:22px;background:#444;position:relative;transition:background .25s;border:1px solid #666}
+.sw i::after{content:'';position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .25s}
+.sw input:checked+i{background:var(--red)}.sw input:checked+i::after{transform:translateX(22px)}
+.sw span:first-child{opacity:1}.sw:has(input:checked) span:first-child,.sw:not(:has(input:checked)) span:last-child{opacity:.45}
+/* ===== character sheet (follows the printed sheet) ===== */
+body{background:#fff}main{padding:14px}
+.sheetpage{max-width:1280px;margin:0 auto}
+h2.script{font:2.1rem 'Kaushan Script',cursive;color:var(--red);margin:14px 0 4px;border:0;letter-spacing:0}
+.sheetpage h3,.shipgrid .panel h3{font:800 1rem Montserrat,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);border-bottom:2px solid var(--red);margin:16px 0 8px;padding-bottom:3px}
+.sheetpage h4{margin:10px 0 4px;font:800 .8rem Montserrat;text-transform:uppercase;color:var(--red)}
+.shead{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 24px;border-top:4px solid var(--red);padding-top:8px}
+.ttl{font:3.4rem/1 'Pirata One',serif;color:var(--red)}.ttl .the{font:2.4rem 'Kaushan Script';color:var(--red)}.ttl .pbt{color:var(--ink);text-transform:uppercase}
+.flds{display:flex;flex-direction:column;gap:2px;flex:1;min-width:220px}.flds label,.pbsel{font:800 .75rem Montserrat;text-transform:uppercase;display:block}
+.flds input{border:0;border-bottom:1px solid var(--ink);background:transparent;font:1rem Lora}
+.pbsel select{font:1rem Lora;min-width:170px}
+.p1{display:grid;grid-template-columns:270px 1fr 240px;gap:22px;margin-top:6px}
+.p2{display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:22px}
+.c-art .stick{position:sticky;top:60px}
+.traitbox{background:var(--ink);border:3px solid var(--ink);outline:2px solid #fff;outline-offset:-8px;border-radius:14px;padding:16px 14px;display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.traitbox .tr{display:flex;align-items:center;gap:12px}.traitbox input{width:62px;height:42px;text-align:center;font:700 1.3rem Lora;border:2px solid var(--red);border-radius:8px;background:#fff;padding:0}
+.traitbox label{font:800 1.25rem Montserrat,sans-serif;color:var(--red);text-transform:uppercase;cursor:pointer;flex:1}.traitbox label:hover{color:#fff;transform:translateX(4px)}
+.holdbox{display:flex;align-items:center;gap:8px;margin-top:14px;font:800 .8rem Montserrat;text-transform:uppercase}.holdbox .hv{font:1.6rem 'Pirata One';min-width:26px;text-align:center}
+.greybox{background:#d2d3d5;border:3px solid #fff;outline:2px solid #d2d3d5;border-radius:6px;padding:6px}.greybox textarea{background:transparent;border:0;min-height:120px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.pill{display:flex;align-items:center;gap:6px;background:#d2d3d5;border-radius:20px;padding:2px 10px 2px 6px;margin-bottom:6px}.pill input{background:transparent;border:0}
+.bond{display:flex;align-items:center;border-bottom:1px solid var(--ink);margin-bottom:6px;gap:4px}.bond input{border:0;background:transparent}.bond .bt{width:92px;font-size:.75rem;border:0;background:#f1f1f1}
+.xpbar{display:flex;flex-wrap:wrap;align-items:center}.xpbar .dia{width:12px;height:12px;background:var(--red);transform:rotate(45deg);margin:0 8px}
+.opt{display:flex;gap:8px;align-items:flex-start;padding:5px 4px;cursor:pointer;border-radius:4px}.opt:hover{background:#f6e3e4}.opt .rules{flex:1}.opt>.bx{flex:none;margin-top:2px}
+.banner{font:800 1.3rem Montserrat,sans-serif;text-transform:uppercase;color:#fff;background:var(--red);padding:6px 30px 6px 14px;display:inline-block;clip-path:polygon(0 0,100% 0,96% 25%,100% 50%,95% 75%,100% 100%,0 100%);margin:0 0 6px}
+.banner.sm{font-size:1.05rem;display:block;margin-top:16px;column-span:all}
+.cc{background:#d2d3d5;padding:14px;align-self:start}.cct{font:2.4rem 'Pirata One';color:var(--red);margin:0 0 6px}
+.fold{border-top:2px solid #fff;margin-top:8px}.fh{width:100%;background:transparent;color:var(--ink);display:flex;justify-content:space-between;align-items:center;font:800 1rem Montserrat;padding:8px 2px;text-align:left}
+.fh:hover{background:rgba(255,255,255,.5);transform:none;box-shadow:none}.fh i{width:9px;height:9px;border-right:3px solid var(--red);border-bottom:3px solid var(--red);transform:rotate(-45deg);transition:transform .25s}.fold.open .fh i{transform:rotate(45deg)}
+.fb{animation:enter .25s both}
+.oddc,.kitc{background:#fff;padding:8px 10px;margin:6px 0;border:2px solid transparent;cursor:pointer}.kitc{cursor:default}.oddc:hover{border-color:var(--red)}.oddc.sel,.kitc.sel{border-color:var(--red);background:#fff7f7}.mods{color:var(--red);font-weight:700}
+.wg{background:#f6f6f6;border-left:4px solid var(--red);padding:8px 10px;margin:8px 0}.wg h5{margin:0 0 4px;font:800 .8rem Montserrat;text-transform:uppercase}.wg h5 small{font:400 .75rem Lora;color:#666;text-transform:none}.wg .cnt{float:right;font-style:normal;color:var(--red)}
+.wg h6{margin:8px 0 2px;font:800 .72rem Montserrat;text-transform:uppercase;color:var(--red)}.fl{display:block;font-size:.78rem;color:#555;margin-top:4px}.book{background:#fff;border:1px solid #ccc;padding:8px;margin-bottom:8px}
+.mv .h .bx,.mv .h .core{flex:none}
+.shipgrid{display:grid;grid-template-columns:260px 1fr 300px;gap:16px}
+.shipgrid .panel,.cols .mv{background:transparent}.shipgrid .panel{border:0;border-top:3px solid var(--red);padding:6px 0;margin-bottom:8px}
+.notice{margin:8px 0}
+/* ===== responsive ===== */
+@media(max-width:1100px){.p1{grid-template-columns:240px 1fr}.c-art{grid-column:1/-1;order:-1;display:flex;justify-content:center}.c-art .stick{position:static;max-width:260px}.p2{grid-template-columns:1fr}.shipgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.p1{grid-template-columns:1fr}.two{grid-template-columns:1fr}.shipgrid{grid-template-columns:1fr}.ttl{font-size:2.6rem}.ttl .the{font-size:1.8rem}
+ header{padding:8px 12px}header h1{font-size:1.6rem}.tabs{overflow-x:auto}.tabs button{flex:1;white-space:nowrap}
+ input[type=text],textarea,select,input[type=number]{font-size:16px}.bx{width:26px;height:26px}.dm{width:18px;height:18px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.card img{height:200px}
+ .banner{font-size:1.05rem}#dice{left:8px;right:8px;bottom:8px;width:auto}main{padding-bottom:90px}.traitbox label{font-size:1.1rem}.cols{columns:1}.card .del{opacity:1}}
+
+@media(max-width:1100px){.c-art .stick{max-width:200px}}
+@media(max-width:760px){.c-art .stick{max-width:150px}.c-art{order:0}}

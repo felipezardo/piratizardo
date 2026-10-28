@@ -1,4 +1,4 @@
-window.RULES_EN={
+{
  "playbooks": {
   "captain": {
    "moves": [
@@ -32,7 +32,7 @@ window.RULES_EN={
     },
     {
      "name": "TAKES ONE TO KNOW ONE",
-     "text": "When you read someone, roll +VINEGAR. On a hit, ask 1; on a 10+, ask 2. On a miss, they ask 1 instead. You may spend a bond with them to ask all three, even after rolling. What are your true intentions here? How can I get you to do what I want? What is your achilles heel?"
+     "text": "When you read someone, roll +VINEGAR. On a hit, ask 1; on a 10+, ask 2. On a miss, they ask 1 instead. You may spend a bond with them to ask all three, even after rolling. \n• What are your true intentions here? \n• How can I get you to do what I want? \n• What is your achilles heel?"
     }
    ],
    "oddities": [
@@ -82,7 +82,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, you:",
    "last": [
     "Inspire your crew as you perish. Go around the table and ask each crewmate if you were a good captain in the end. If their heart says yes, they mark all-luck; if their heart says no, they may clear all of their troubles.",
-    "Fall in disgrace, but remain barely alive. Lose everything you had—your captainship, your dignity, your treasure. Choose a new playbook. OBSESSED You can be compelled by the Fates to pursue your ambition at all costs. If you screw over a crewmate in the process, mark 1 experience and 1 unrest. Whenever you clear Obsessed, remove 1 unrest. Endpoint: resist the compel for the sake of the crew."
+    "Fall in disgrace, but remain barely alive. Lose everything you had—your captainship, your dignity, your treasure. Choose a new playbook."
    ],
    "vice": {
     "name": "Obsessed",
@@ -94,11 +94,11 @@ window.RULES_EN={
    "moves": [
     {
      "name": "SURGERY",
-     "text": "When you give a willing patient surgery, tell the Fates what you want the surgery to do for the patient and pick 1 strange rare ingredient or tool you need for it. The Fates may require you to use 1 to 3 more ingredients or tools, based on the scale of the surgery requested. Once you have everything you need, take an hour with your surgery tools and roll +VINEGAR. On a hit, it works—choose 1 side effect from the following list. On a 7-9, choose 2. It’s time-consuming; you must expend a downtime to complete it. It’s messy; you exhaust your surgery tools. It’s fascinating; you take Enthralled. On a miss, the surgery works but goes awry; the patient takes a terrible side effect in the form of a trouble of the Fates’ choice, with the endpoint [remove whatever the surgery did to you, and take 1-harm]."
+     "text": "When you give a willing patient surgery, tell the Fates what you want the surgery to do for the patient and pick 1 strange rare ingredient or tool you need for it. The Fates may require you to use 1 to 3 more ingredients or tools, based on the scale of the surgery requested. Once you have everything you need, take an hour with your surgery tools and roll +VINEGAR. On a hit, it works—choose 1 side effect from the following list. On a 7-9, choose 2. \n• It’s time-consuming; you must expend a downtime to complete it. \n• It’s messy; you exhaust your surgery tools. \n• It’s fascinating; you take Enthralled. On a miss, the surgery works but goes awry; the patient takes a terrible side effect in the form of a trouble of the Fates’ choice, with the endpoint [remove whatever the surgery did to you, and take 1-harm]."
     },
     {
      "name": "ALCHEMY",
-     "text": "At the beginning of every session, if you have your alchemy tools, you may roll +VINEGAR. On a hit, hold 1. On a 10+, hold 2. On a miss, your alchemy tools have run out; you’ll have to find or buy more. Spend hold, 1-for-1, to have one of the following on hand when you need it. Your hold expires at the end of the session. 3 explosives (2-harm, area, dangerous, loud, fire, works on impact) 3 stinkbombs (area, +1 to Clever Trick, smelly, stun, explodes after five minutes) 1 poison vial (slow, consume: 3-harm paralyze) 1 vial of superglue (dangerous, can stick anything together, weak to salt water) 1 canister of sleeping gas (area sleep, works on impact) 3 smokebombs (area, +1 to Clever Trick, blind, works on impact)"
+     "text": "At the beginning of every session, if you have your alchemy tools, you may roll +VINEGAR. On a hit, hold 1. On a 10+, hold 2. On a miss, your alchemy tools have run out; you’ll have to find or buy more. Spend hold, 1-for-1, to have one of the following on hand when you need it. Your hold expires at the end of the session. \n• 3 explosives (2-harm, area, dangerous, loud, fire, works on impact) \n• 3 stinkbombs (area, +1 to Clever Trick, smelly, stun, explodes after five minutes) \n• 1 poison vial (slow, consume: 3-harm paralyze) \n• 1 vial of superglue (dangerous, can stick anything together, weak to salt water) \n• 1 canister of sleeping gas (area sleep, works on impact) \n• 3 smokebombs (area, +1 to Clever Trick, blind, works on impact)"
     },
     {
      "name": "CLERICAL STUDY",
@@ -172,7 +172,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, you:",
    "last": [
     "Perform desperate surgery on yourself and take a trouble: “Barely Alive [die]. You cling to life.” What ghastly mark does it leave on you?",
-    "Give in with grace (all crewmates who stand vigil for your death heal 1-harm) or without it (describe what terrible medical abomination you leave behind). ENTHRALLED While Enthralled, the Fates may compel you to do exciting science at the risk of human life. If you put a crewmate on the chopping block to do so, mark 1 experience. Endpoint: resist the compel for the sake of the crew."
+    "Give in with grace (all crewmates who stand vigil for your death heal 1-harm) or without it (describe what terrible medical abomination you leave behind)."
    ],
    "vice": {
     "name": "Enthralled",
@@ -184,7 +184,7 @@ window.RULES_EN={
    "moves": [
     {
      "name": "WORDSMITH",
-     "text": "When you decide to write a book, tell the Fates what the book will be about, and what you want the book to do when you read it aloud. The Fates will give you a quest you must complete before you finish it, selecting from the following list. They may add up to 4 additional quests for more powerful books. You must first experience ______. The book must be made from _______. The ink must be infused with ______. _____ must give the book their ______. When you finish your book during downtime, roll +SPITFIRE. On a hit, pick one requirement to use the book’s magic; the Fates will fill in the blanks. On a 7-9, pick an additional requirement. On a miss, tell the Fates why the book isn’t what you intended it to be; the Fates will tell you what the book does now. Pick two requirements for it; it’s dangerous. The book can only be used _____ . The book won’t work if _____ . To read it, you must first ______ . Reading it causes ______ to ______ . To use a book, fulfill its requirements, read it aloud, and unleash the book’s power. It affects everyone who hears and understands the words."
+     "text": "When you decide to write a book, tell the Fates what the book will be about, and what you want the book to do when you read it aloud. The Fates will give you a quest you must complete before you finish it, selecting from the following list. They may add up to 4 additional quests for more powerful books. \n• You must first experience ______. \n• The book must be made from _______. \n• The ink must be infused with ______. \n• _____ must give the book their ______. When you finish your book during downtime, roll +SPITFIRE. On a hit, pick one requirement to use the book’s magic; the Fates will fill in the blanks. On a 7-9, pick an additional requirement. On a miss, tell the Fates why the book isn’t what you intended it to be; the Fates will tell you what the book does now. Pick two requirements for it; it’s dangerous. \n• The book can only be used _____ . \n• The book won’t work if _____ . \n• To read it, you must first ______ . \n• Reading it causes ______ to ______ . To use a book, fulfill its requirements, read it aloud, and unleash the book’s power. It affects everyone who hears and understands the words."
     },
     {
      "name": "INSPIRATION",
@@ -262,7 +262,7 @@ window.RULES_EN={
    "lastIntro": "Will you speak your last words?",
    "last": [
     "Yes, and they are your life’s work. Your last words become a djinni of your own making, sculpted by your final thoughts. Use the djinni as a new character, or let your work be interpreted by the Fates.",
-    "No, you live by running away. Embrace cowardice: run and leave your friends to their terrible fate. Leave everything behind, including your ship and the sea. Make a new character if you wish to stay on the crew. BOOK FEVER You can be compelled by the Fates to retreat into your books to escape problems. When you abandon the needs of the crew while doing so, mark 1 experience and gain 1 bond with the book you’ve retreated to, which now contains a djinni. Spend 1 bond with this djinni to use the book’s powers freely—without rolling, conditions, or consequences. If you wish to use the book otherwise, you must parley with the djinni instead of unleashing its power. Endpoint: face headlong something that scares you. EXPERIENCE BASE COST 1 2 3 4 5 6 7 8 9 10"
+    "No, you live by running away. Embrace cowardice: run and leave your friends to their terrible fate. Leave everything behind, including your ship and the sea. Make a new character if you wish to stay on the crew."
    ],
    "vice": {
     "name": "Book Fever",
@@ -274,15 +274,15 @@ window.RULES_EN={
    "moves": [
     {
      "name": "DARK DEED",
-     "text": "When you commit a dark deed that helps you commit your vengeance, choose a deed and roll +BLOOD. On a hit, mark and use the deed you chose. On a 7-9, you’re compelled to do the thing in parentheses too. You can’t use an option that’s already been marked. Every currently marked deed appears on your body as a black mark. When you commit an unprompted act of truly gratuitous cold violence, erase all your marks and start over. Hit your next target dead in the chest for +3-harm forceful piercing. (Then shoot someone you shouldn’t.) Make someone small do what you want, whatever you want, by threatening violence. (Then do the violence anyway.) Escape your current perilous situation, even if it seems impossible. (By endangering someone who didn’t deserve it.) On a miss, you fall to your darkest urges; you accomplish only the result in parentheses. At any time, even after rolling, you may instead choose to destroy everything in your way, no matter friend or foe—but you are then compelled to lose your mind, and retire this character for the Fates to play."
+     "text": "When you commit a dark deed that helps you commit your vengeance, choose a deed and roll +BLOOD. On a hit, mark and use the deed you chose. On a 7-9, you’re compelled to do the thing in parentheses too. You can’t use an option that’s already been marked. Every currently marked deed appears on your body as a black mark. When you commit an unprompted act of truly gratuitous cold violence, erase all your marks and start over. \n• Hit your next target dead in the chest for +3-harm forceful piercing. (Then shoot someone you shouldn’t.) \n• Make someone small do what you want, whatever you want, by threatening violence. (Then do the violence anyway.) \n• Escape your current perilous situation, even if it seems impossible. (By endangering someone who didn’t deserve it.) On a miss, you fall to your darkest urges; you accomplish only the result in parentheses. At any time, even after rolling, you may instead choose to destroy everything in your way, no matter friend or foe—but you are then compelled to lose your mind, and retire this character for the Fates to play."
     },
     {
      "name": "CALLED SHOT",
-     "text": "When you get into a scrap, you can throw yourself into a precarious position to make a called shot. If you hit, choose a tag from the following options; your target takes that tag in addition to any harm you inflict. Blinded. They can’t see anything. Limping. They can’t walk faster than a slow limp. Maimed. They drop what they’re holding and can’t use that arm. Rattled. They get sloppy. You take +1 on moves against them."
+     "text": "When you get into a scrap, you can throw yourself into a precarious position to make a called shot. If you hit, choose a tag from the following options; your target takes that tag in addition to any harm you inflict. \n• Blinded. They can’t see anything. \n• Limping. They can’t walk faster than a slow limp. \n• Maimed. They drop what they’re holding and can’t use that arm. \n• Rattled. They get sloppy. You take +1 on moves against them."
     },
     {
      "name": "DIRTY DEEDS",
-     "text": "Add these to your list of dark deeds: Declare someone your target. You can always sense where they are and you take +1 to violence against them. (Take -1 to anything else.)  When you’ve just taken a life, remove all your harm. (Then mutilate their corpse.)"
+     "text": "Add these to your list of dark deeds: \n• Declare someone your target. You can always sense where they are and you take +1 to violence against them. (Take -1 to anything else.) \n• When you’ve just taken a life, remove all your harm. (Then mutilate their corpse.)"
     },
     {
      "name": "HIGHWAY TO HELL",
@@ -352,7 +352,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, do you still seek vengeance?",
    "last": [
     "Yes, you still have people who need killing. Return from death as a revenant. You no longer eat, drink, or sleep; you take -1 to standing your ground until you’re given a proper death (or change playbooks). Choose one body part and one memory you’ve lost.",
-    "No, you are sick of dealing death. Roll 1d6. If you roll a result greater than the amount of marked deeds you currently have, you’ve redeemed yourself; die in peace. Otherwise, you must return. V ICE When you speak your last words, do you still seek vengeance? BLOODTHIRSTY You are compelled to see anyone between you and your goal as mere obstacles, easily put down. When you kill someone innocent for the sake of vengeance, mark 1 experience. Endpoint: choose not to take vengeance."
+    "No, you are sick of dealing death. Roll 1d6. If you roll a result greater than the amount of marked deeds you currently have, you’ve redeemed yourself; die in peace. Otherwise, you must return. V ICE When you speak your last words, do you still seek vengeance?"
    ],
    "vice": {
     "name": "Bloodthirsty",
@@ -364,11 +364,11 @@ window.RULES_EN={
    "moves": [
     {
      "name": "FISTICUFFS",
-     "text": "Your fists are 2-harm close. When you bust through an obstacle, take a Matelot trouble if you can and roll +BLOOD. On a hit, you destroy the obstacle. On a 10+, pick one; on a 7-9, both occur. You attract unwanted attention. Take 1-harm in the process. On a miss, you wreck something you shouldn’t have. The Fates will tell you how you’ve made new obstacles for yourself."
+     "text": "Your fists are 2-harm close. When you bust through an obstacle, take a Matelot trouble if you can and roll +BLOOD. On a hit, you destroy the obstacle. On a 10+, pick one; on a 7-9, both occur. \n• You attract unwanted attention. \n• Take 1-harm in the process. On a miss, you wreck something you shouldn’t have. The Fates will tell you how you’ve made new obstacles for yourself."
     },
     {
      "name": "HEART OF GOLD",
-     "text": "At character creation, mark two of the options. Do what it says and spend 1 bond with your crewmate to accomplish those effects. Lend them all of your might, and add 2 to their roll (you may do this before or after rolling). Dive in front of them and suffer the consequence the Fates inflicted on them (harm, trouble, etc.)  Provide them a steady hand or word, and give them a 10+ while standing their ground. Look into their eyes and know exactly what they’re up to."
+     "text": "At character creation, mark two of the options. Do what it says and spend 1 bond with your crewmate to accomplish those effects. \n• Lend them all of your might, and add 2 to their roll (you may do this before or after rolling). \n• Dive in front of them and suffer the consequence the Fates inflicted on them (harm, trouble, etc.) \n• Provide them a steady hand or word, and give them a 10+ while standing their ground. \n• Look into their eyes and know exactly what they’re up to."
     },
     {
      "name": "CUMSHAW KING",
@@ -384,7 +384,7 @@ window.RULES_EN={
     },
     {
      "name": "STORMBLOODED",
-     "text": "When you have the Raging trouble and give into its compel, choose two that happen immediately: You mark all-luck. Your weapons and fists are 1-wreck until you take a breather.  You summon a great thunderstorm around you; describe how it aids you."
+     "text": "When you have the Raging trouble and give into its compel, choose two that happen immediately: \n• You mark all-luck. \n• Your weapons and fists are 1-wreck until you take a breather. \n• You summon a great thunderstorm around you; describe how it aids you."
     },
     {
      "name": "FRIENDS WITH MERMAIDS",
@@ -476,7 +476,7 @@ window.RULES_EN={
    "moves": [
     {
      "name": "CHANNEL",
-     "text": "At character creation, mark 2 dark powers. For every 1 bond you have with your demon, mark an additional power. When you lose a bond with your demon, lose a power. When you channel a dark power, spend 1-luck and roll +SPITFIRE. On a hit, unleash 1 dark power you’ve marked. On a 7-9, suffer 1-harm as well. On a miss, take 3-harm to channel the power, or else the demon can do whatever it wants for a few seconds. The powers last a scene. Shapeshift into anything you’ve seen that’s about your size or smaller. Create fireballs and infernos around you (dangerous fire area loud 2-harm). Animate a corpse (bound slow 2-harm close) from a nearby shadow. Force someone in your sight, whose name you know, to follow your next order (it can’t harm them). Cloak yourself in shadow for strange hardy 2-armor. See the deep desires and dark secrets of everyone around you. Enter the dreams of a person whose name you know, and give them visions."
+     "text": "At character creation, mark 2 dark powers. For every 1 bond you have with your demon, mark an additional power. When you lose a bond with your demon, lose a power. When you channel a dark power, spend 1-luck and roll +SPITFIRE. On a hit, unleash 1 dark power you’ve marked. On a 7-9, suffer 1-harm as well. On a miss, take 3-harm to channel the power, or else the demon can do whatever it wants for a few seconds. The powers last a scene. \n• Shapeshift into anything you’ve seen that’s about your size or smaller. \n• Create fireballs and infernos around you (dangerous fire area loud 2-harm). \n• Animate a corpse (bound slow 2-harm close) from a nearby shadow. \n• Force someone in your sight, whose name you know, to follow your next order (it can’t harm them). \n• Cloak yourself in shadow for strange hardy 2-armor. \n• See the deep desires and dark secrets of everyone around you. \n• Enter the dreams of a person whose name you know, and give them visions."
     },
     {
      "name": "BARGAIN",
@@ -553,7 +553,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, choose one:",
    "last": [
     "Explode in a hellish inferno as your body becomes a vessel for your demon. Tell the Fates what the demon does next; after it finishes this final task, it’s in fate’s hands.",
-    "Make a desperate bargain with your demon for your life. They will ask for something terrible in return. BEDEVILED While Bedeviled, you are compelled to do as your demon says; if it asks you to do something nasty to a crewmate, do it willingly to mark 1 experience. If you resist the compel, pick from the list of sacrifices or else lose 1 bond with the demon. Endpoint: resist the compel for a crewmate’s sake."
+    "Make a desperate bargain with your demon for your life. They will ask for something terrible in return."
    ],
    "vice": {
     "name": "Bedeviled",
@@ -577,11 +577,11 @@ window.RULES_EN={
     },
     {
      "name": "BOSUN’S BLESSING",
-     "text": "When you twist fate while steering your ship, you may spend bond with your ship, 1-for-1, instead of luck. If you do, you can choose from the following additional effects: You spot something hidden just beneath the waves; what is it and how could it aid you? You notice a way to take cover and lose pursuers; what is it and how could you take advantage? The weather turns against your enemies; what happens and how does it mess them up? At any time, you may mark Hunted to act as if you’ve spent 2-luck on twisting your fate, and pick one of the above options."
+     "text": "When you twist fate while steering your ship, you may spend bond with your ship, 1-for-1, instead of luck. If you do, you can choose from the following additional effects: \n• You spot something hidden just beneath the waves; what is it and how could it aid you? \n• You notice a way to take cover and lose pursuers; what is it and how could you take advantage? \n• The weather turns against your enemies; what happens and how does it mess them up? At any time, you may mark Hunted to act as if you’ve spent 2-luck on twisting your fate, and pick one of the above options."
     },
     {
      "name": "READ THE STARS",
-     "text": "When you read the stars on a clear night at the prow of your ship, spend 1-luck and roll +SPITFIRE. On a hit, the stars tell you 1, and the Fates answer the attached question. On a 10+, learn 2, or learn 1 and answer the attached question yourself. On a miss, you must mark Hunted to learn 1. A way into something, a way out of something, or a way home. Where to? A secret only the stars have heard before. Which secret? The fate of something: where their heart’s compass points. Whose fate?"
+     "text": "When you read the stars on a clear night at the prow of your ship, spend 1-luck and roll +SPITFIRE. On a hit, the stars tell you 1, and the Fates answer the attached question. On a 10+, learn 2, or learn 1 and answer the attached question yourself. On a miss, you must mark Hunted to learn 1. \n• A way into something, a way out of something, or a way home. Where to? \n• A secret only the stars have heard before. Which secret? \n• The fate of something: where their heart’s compass points. Whose fate?"
     },
     {
      "name": "STAR BLESSING",
@@ -643,7 +643,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, choose one:",
    "last": [
     "The Sea saves you. It wraps you in its embrace, protects you from all ills, and then takes you away forever. What are your last words to your crewmates as you’re taken? Make a new character unless or until your Navigator is saved from the depths.",
-    "You die, and the Sea mourns. Describe the terrible, awe-inspiring thing that the ocean and its servants do to your body and your enemies. HUNTED If you break the rule dictated by the sea’s curse, mark all-luck, but you are Hunted; the sea is now searching for you. While Hunted, you can be compelled by the Fates to give in to the sea’s call and walk for the waves; once there, the sea’s servants will rise from it and attempt to claim you. If you give in willingly, and are scarred for it, mark 1 experience. Endpoint: encounter the sea’s servants."
+    "You die, and the Sea mourns. Describe the terrible, awe-inspiring thing that the ocean and its servants do to your body and your enemies."
    ],
    "vice": {
     "name": "Hunted",
@@ -655,7 +655,7 @@ window.RULES_EN={
    "moves": [
     {
      "name": "SCAMP",
-     "text": "You have a nemesis and a protector. Any time your nemesis stops you from causing trouble for the crew, they mark 1-luck. Anytime your protector successfully gets you out of trouble, they refresh all bonds with you. At the beginning of every chapter, ask your crewmates: which of you is most pissed at me right now? Which of you is most likely to stick their neck out for me? The first becomes your new nemesis; the second becomes your new protector. At character creation, mark two of the following effects. You can spend 1 bond with your nemesis or protector, or take Greedy, to use any marked effects on them. Sneak up on them, sneak past them, or eavesdrop on them. Know exactly what secret or weakness they’re hiding. Bait them, and compel them to do something dumb in response. Nick something from them without them noticing."
+     "text": "You have a nemesis and a protector. Any time your nemesis stops you from causing trouble for the crew, they mark 1-luck. Anytime your protector successfully gets you out of trouble, they refresh all bonds with you. At the beginning of every chapter, ask your crewmates: which of you is most pissed at me right now? Which of you is most likely to stick their neck out for me? The first becomes your new nemesis; the second becomes your new protector. At character creation, mark two of the following effects. You can spend 1 bond with your nemesis or protector, or take Greedy, to use any marked effects on them. \n• Sneak up on them, sneak past them, or eavesdrop on them. \n• Know exactly what secret or weakness they’re hiding. \n• Bait them, and compel them to do something dumb in response. \n• Nick something from them without them noticing."
     },
     {
      "name": "CHARY CATECHUMEN",
@@ -736,7 +736,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, you:",
    "last": [
     "Ask your nemesis to save you. If they agree, you’re in their debt. If they don’t, then...",
-    "Go it alone. You’re gone. Secretly, tell the Fates if your character dies now, or comes back as a villain NPC with a terrible grudge against the crew. GREEDY While Greedy, the Fates may compel you to steal something you shouldn’t. If you do it willingly and get the crew in trouble, mark 1 experience. Endpoint: resist for the sake of the crew."
+    "Go it alone. You’re gone. Secretly, tell the Fates if your character dies now, or comes back as a villain NPC with a terrible grudge against the crew."
    ],
    "vice": {
     "name": "Greedy",
@@ -748,15 +748,15 @@ window.RULES_EN={
    "moves": [
     {
      "name": "CONNECTIONS",
-     "text": "Whenever you gain a bond with someone, you can choose to make them one of your connections; decide whether they are now a comrade, a rival, or a lover, and write it down next to their name. You may spend 1 bond with a... comrade to act as if you’ve rolled a 10+ on standing your ground. rival to overpower them in one move, putting them at your mercy. lover to compel them to do you a special, secret favor. Whenever you spend a bond with a connection in this way, mark Impassioned. You cannot use bonds in this way while Impassioned."
+     "text": "Whenever you gain a bond with someone, you can choose to make them one of your connections; decide whether they are now a comrade, a rival, or a lover, and write it down next to their name. You may spend 1 bond with a... \n• comrade to act as if you’ve rolled a 10+ on standing your ground. \n• rival to overpower them in one move, putting them at your mercy. \n• lover to compel them to do you a special, secret favor. Whenever you spend a bond with a connection in this way, mark Impassioned. You cannot use bonds in this way while Impassioned."
     },
     {
      "name": "THEATRICS",
-     "text": "When you enter a fight, roll +VINEGAR. On a hit, hold 1. On a 10+, hold 2 instead. For as long as the scene lasts, spend hold to mark one the following theatrics and use its effect. You can’t use an option that’s already been marked. When all the theatrics have been marked, erase all marks and start over. Swing from something and land exactly where you need to be. Pin an enemy to the wall by throwing something. Challenge someone to a duel they can’t refuse. Disarm a mook with a single flick of the hand. Reveal you have yet another weapon up your sleeve. On a miss, your dramatic entrance is embarrassing. If one of your connections is watching, take Impassioned."
+     "text": "When you enter a fight, roll +VINEGAR. On a hit, hold 1. On a 10+, hold 2 instead. For as long as the scene lasts, spend hold to mark one the following theatrics and use its effect. You can’t use an option that’s already been marked. When all the theatrics have been marked, erase all marks and start over. \n• Swing from something and land exactly where you need to be. \n• Pin an enemy to the wall by throwing something. \n• Challenge someone to a duel they can’t refuse. \n• Disarm a mook with a single flick of the hand. \n• Reveal you have yet another weapon up your sleeve. On a miss, your dramatic entrance is embarrassing. If one of your connections is watching, take Impassioned."
     },
     {
      "name": "BIG DAMN HERO",
-     "text": "When you pull an insanely risky stunt to save your crew from a danger, roll +BLOOD. On a hit, you pull it off; describe how you did it and pick one. On a 7-9, both happen. You face a terrible and lasting consequence for your foolishness. A connection is seriously hurt in the process; take Impassioned. On a miss, you fail, or succeed by sacrificing yourself, your choice; the Fates will tell you what befalls you… and what, if anything, comes next."
+     "text": "When you pull an insanely risky stunt to save your crew from a danger, roll +BLOOD. On a hit, you pull it off; describe how you did it and pick one. On a 7-9, both happen. \n• You face a terrible and lasting consequence for your foolishness. \n• A connection is seriously hurt in the process; take Impassioned. On a miss, you fail, or succeed by sacrificing yourself, your choice; the Fates will tell you what befalls you… and what, if anything, comes next."
     },
     {
      "name": "GALLANT RESCUER",
@@ -764,7 +764,7 @@ window.RULES_EN={
     },
     {
      "name": "CURTAIN CALL",
-     "text": "Add the following theatrics to your list: Swoop in and get between a connection and danger. Compel everyone to pay attention to only you. Impress or fluster someone; take the ante with them."
+     "text": "Add the following theatrics to your list: \n• Swoop in and get between a connection and danger. \n• Compel everyone to pay attention to only you. \n• Impress or fluster someone; take the ante with them."
     },
     {
      "name": "I’M NOT LEFT-HANDED EITHER",
@@ -825,7 +825,7 @@ window.RULES_EN={
    "lastIntro": "When you speak your last words, you may:",
    "last": [
     "Get back up and fight until your current enemy has been vanquished. When they’ve been defeated, fall to your knees, reveal the mortal wound you’ve been hiding, and have a dramatic death scene.",
-    "Barely live, but with a terrible injury that leaves your face marred or your body weak. Choose a new playbook. IMPASSIONED While you’re Impassioned, the Fates can compel you to do extremely foolish things to impress your connections. If this gets another of your connections in trouble, mark 1 experience; that connection can choose to reject you for it. If they do, lose 1 bond with them and gain 1 bond with another. Endpoint: break a heart."
+    "Barely live, but with a terrible injury that leaves your face marred or your body weak. Choose a new playbook."
    ],
    "vice": {
     "name": "Impassioned",
@@ -1071,7 +1071,7 @@ window.RULES_EN={
    "special": {
     "title": "Use Gadget",
     "blocks": [
-     "When your ship’s crew uses your ship’s gadgets, either take 1-wreck or spend 1 unit of oil, your choice. Any number of the crew may spend bond with the ship; roll +BOND spent. On a hit, use the gadget’s power: Steam Engine—hold 3. Spend hold at any time to put on a great burst of speed or ignore turbulent wind and waves. Pyrotechnics—set fire to the opposition for 2-wreck fire dangerous loud forceful, from a realfar range. Submersible—sink beneath the waves for a scene; choose whether you’re completely invisible from the surface, or able to see what’s going on above you. On a 7-9, mark 1 on your chase tally. On a miss, choose whether your gadget backfires dramatically or it works but you fill up the chase tally immediately. When the chase tally fills, your powerful enemy shows up in force as soon as the narrative permits, in a fashion described by your oddity; erase all marks from your tally and start over."
+     "When your ship’s crew uses your ship’s gadgets, either take 1-wreck or spend 1 unit of oil, your choice. Any number of the crew may spend bond with the ship; roll +BOND spent. On a hit, use the gadget’s power: \n• Steam Engine—hold 3. Spend hold at any time to put on a great burst of speed or ignore turbulent wind and waves. \n• Pyrotechnics—set fire to the opposition for 2-wreck fire dangerous loud forceful, from a realfar range. \n• Submersible—sink beneath the waves for a scene; choose whether you’re completely invisible from the surface, or able to see what’s going on above you. On a 7-9, mark 1 on your chase tally. On a miss, choose whether your gadget backfires dramatically or it works but you fill up the chase tally immediately. When the chase tally fills, your powerful enemy shows up in force as soon as the narrative permits, in a fashion described by your oddity; erase all marks from your tally and start over."
     ]
    },
    "specials": [
@@ -1385,5 +1385,131 @@ window.RULES_EN={
     "Your ship’s name is (choose 1): the going merry • charon’s ferry • the goose • something else. Write it in “Name”."
    ]
   }
+ },
+ "widgets": {
+  "lair": {
+   "title": "Lair features",
+   "hint": "Underline two.",
+   "items": [
+    "a size-1 group of loyal lackeys",
+    "supply of a rare resource",
+    "a business front (take +1-treasure when you spend downtime here)",
+    "a locus",
+    "tools and a workshop",
+    "a secret entrance",
+    "lots of rum and entertainment",
+    "a skilled ship doctor"
+   ]
+  },
+  "surg": {
+   "title": "Surgery tools",
+   "hint": "Pick two.",
+   "items": [
+    "herbs and poultices",
+    "a dizzying array of scalpels",
+    "chemicals in cryptically labeled bottles",
+    "bandages, thread, and bone needles",
+    "bloodbags and syringes"
+   ]
+  },
+  "alch": {
+   "title": "Alchemy tools",
+   "hint": "Pick one.",
+   "items": [
+    "collections of organs in jars",
+    "a toolbox bursting with raw wires and electric clamps",
+    "a bulging satchel of vials",
+    "a mystic collection of artifacts"
+   ]
+  },
+  "books": {
+   "title": "Books",
+   "add": "Add book",
+   "name": "Title",
+   "effect": "What the book does",
+   "quests": "Quests",
+   "reqs": "Requirements",
+   "done": "Finished",
+   "del": "Remove",
+   "questLabels": [
+    "You must first experience ______",
+    "The book must be made from ______",
+    "The ink must be infused with ______",
+    "______ must give the book their ______"
+   ],
+   "reqLabels": [
+    "The book can only be used ______",
+    "The book won’t work if ______",
+    "To read it, you must first ______",
+    "Reading it causes ______ to ______"
+   ]
+  },
+  "deeds": {
+   "title": "Dark deeds",
+   "hint": "Each marked deed is a black mark on your body.",
+   "items": [
+    "Hit your next target dead in the chest for +3-harm forceful piercing. (Then shoot someone you shouldn’t.)",
+    "Make someone small do what you want, whatever you want, by threatening violence. (Then do the violence anyway.)",
+    "Escape your current perilous situation, even if it seems impossible. (By endangering someone who didn’t deserve it.)"
+   ],
+   "extra": [
+    "Declare someone your target. You can always sense where they are and you take +1 to violence against them. (Take -1 to anything else.)",
+    "When you’ve just taken a life, remove all your harm. (Then mutilate their corpse.)"
+   ],
+   "marks": "Black marks"
+  },
+  "heart": {
+   "title": "Heart of Gold",
+   "hint": "Mark two at character creation (the other two with Duty-Bound).",
+   "items": [
+    "Lend them all of your might, and add 2 to their roll (you may do this before or after rolling).",
+    "Dive in front of them and suffer the consequence the Fates inflicted on them (harm, trouble, etc.)",
+    "Provide them a steady hand or word, and give them a 10+ while standing their ground.",
+    "Look into their eyes and know exactly what they’re up to."
+   ]
+  },
+  "channel": {
+   "title": "Dark powers",
+   "hint": "Mark 2 at character creation, plus 1 for every bond with your demon.",
+   "items": [
+    "Shapeshift into anything you’ve seen that’s about your size or smaller.",
+    "Create fireballs and infernos around you (dangerous fire area loud 2-harm).",
+    "Animate a corpse (bound slow 2-harm close) from a nearby shadow.",
+    "Force someone in your sight, whose name you know, to follow your next order (it can’t harm them).",
+    "Cloak yourself in shadow for strange hardy 2-armor.",
+    "See the deep desires and dark secrets of everyone around you.",
+    "Enter the dreams of a person whose name you know, and give them visions."
+   ]
+  },
+  "scamp": {
+   "title": "Scamp effects",
+   "hint": "Mark two at character creation.",
+   "items": [
+    "Sneak up on them, sneak past them, or eavesdrop on them.",
+    "Know exactly what secret or weakness they’re hiding.",
+    "Bait them, and compel them to do something dumb in response.",
+    "Nick something from them without them noticing."
+   ],
+   "fields": [
+    "Nemesis",
+    "Protector"
+   ]
+  },
+  "theatrics": {
+   "title": "Theatrics",
+   "hint": "When all are marked, erase all marks and start over.",
+   "items": [
+    "Swing from something and land exactly where you need to be.",
+    "Pin an enemy to the wall by throwing something.",
+    "Challenge someone to a duel they can’t refuse.",
+    "Disarm a mook with a single flick of the hand.",
+    "Reveal you have yet another weapon up your sleeve."
+   ],
+   "extra": [
+    "Swoop in and get between a connection and danger.",
+    "Compel everyone to pay attention to only you.",
+    "Impress or fluster someone; take the ante with them."
+   ]
+  }
  }
-};
+}
